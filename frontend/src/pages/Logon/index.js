@@ -10,13 +10,14 @@ import heroesImg from '../../assets/heroes.png';
 
 export default function Logon() {
   const [id, setId] = useState('');
+  const [password, setPassword] = useState('');
   const history = useHistory();
 
   async function handleLogin(e) {
     e.preventDefault();
 
     try{
-      const response = await api.post('sessions', { id });
+      const response = await api.post('sessions', { id, password });
 
       localStorage.setItem('ongId', id);
       localStorage.setItem('ongName', response.data.name);
@@ -37,8 +38,16 @@ export default function Logon() {
 
           <input 
             placeholder="Sua ID"
+            required
             value={id}
             onChange={e => setId(e.target.value)}
+          />
+          <input 
+            placeholder="Senha"
+            required
+            type="password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
           />
           <button className="button" type="submit">Entrar</button>
 
