@@ -45,7 +45,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Be The Hero é um projeto que facilita a vida dos heróis ao salvar o dia, tornando possível o usuário visualizar casos publicados por ONGs e entrar em contato com elas via E-mail ou WhatsApp, ou no caso de uma ONG, cadastrar-se e encontrar um herói.
 
-A aplicação conta com uma versão web
+Aplicação disponível nas plataformas:
+
+WEB
+App Android
+App iOS
 
 ## 🤔 Como contribuir
 
