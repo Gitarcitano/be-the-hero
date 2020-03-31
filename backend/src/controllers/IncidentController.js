@@ -20,7 +20,7 @@ module.exports = {
       ]);
 
       response.header('X-Total-Count', count['count(*)']);
-  
+    incidents.password = undefined;// Não rolou os efeitos esperados
     return response.json(incidents);
   },
 

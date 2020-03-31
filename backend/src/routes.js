@@ -5,8 +5,11 @@ const OngController = require('./controllers/OngController');
 const IncidentController = require('./controllers/IncidentController');
 const ProfileController = require('./controllers/ProfileController');
 const SessionController = require('./controllers/SessionController');
+const authMiddleware = require('./middlewares/auth');
 
 const routes = express.Router();
+
+//routes.use(authMiddleware);
 
 routes.post('/sessions', celebrate({
   [Segments.BODY]: Joi.object().keys({
@@ -34,7 +37,7 @@ routes.get('/profile', celebrate({
   }).unknown()
 }), ProfileController.index);
 
-routes.get('/incidents', celebrate({
+routes.get('/incidents', authMiddleware, celebrate({
   [Segments.QUERY]: Joi.object().keys({
     page: Joi.number(),
   })
