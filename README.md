@@ -14,6 +14,7 @@
   <a href="https://github.com/Gitarcitano/be-the-hero/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/gitarcitano/be-the-hero">
   </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
 </p>
 
 <p align="center">
@@ -21,6 +22,7 @@
   <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">🤔 Como Contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">🔖 Como Executar</a>&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 <br>
@@ -42,6 +44,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Be The Hero é um projeto que facilita a vida dos heróis ao salvar o dia, tornando possível o usuário visualizar casos publicados por ONGs e entrar em contato com elas via E-mail ou WhatsApp, ou no caso de uma ONG, cadastrar-se e encontrar um herói.
+
+A aplicação conta com uma versão web
 
 ## 🤔 Como contribuir
 
@@ -75,6 +79,11 @@ npm start
 cd mobile
 npm start
 ```
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 
 <p align="center">
   <img alt="Frontend" src="frontend/src/assets/heroes.png" width="596px" height="574px">
