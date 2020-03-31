@@ -22,7 +22,7 @@
   <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">🤔 Como Contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">🔖 Como Executar</a>&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licença">:memo: Licença</a>
 </p>
 
 <br>
