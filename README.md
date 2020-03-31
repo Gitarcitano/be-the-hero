@@ -47,9 +47,9 @@ O Be The Hero é um projeto que facilita a vida dos heróis ao salvar o dia, tor
 
 Aplicação disponível nas plataformas:
 
-WEB
-App Android
-App iOS
+- WEB
+- App Android
+- App iOS
 
 ## 🤔 Como contribuir
 
