@@ -2,10 +2,6 @@
     <img alt="Be the Hero" src="frontend/src/assets/logo.svg" width="250px" />
 </h1>
 
-<h4 align="center">
-  🚀 Semana OmniStack 11.0
-</h4>
-
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gitarcitano/be-the-hero">
 
@@ -30,7 +26,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src="git/prev.png" width="100%">
+  <img alt="Frontend" src="app-preview.png" width="100%">
 </p>
 
 ## :rocket: Tecnologias
@@ -41,10 +37,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
+- [Jest](https://jestjs.io/)
 
 ## 💻 Projeto
 
-O Be The Hero é um projeto que facilita a vida dos heróis em salvar o dia, tornando possível o usuário visualizar casos publicados por ONGs e entrar em contato com elas via E-mail ou WhatsApp, ou no caso de uma ONG, se cadastrar e encontrar um herói.
+O Be The Hero é um projeto que facilita a vida dos heróis ao salvar o dia, tornando possível o usuário visualizar casos publicados por ONGs e entrar em contato com elas via E-mail ou WhatsApp, ou no caso de uma ONG, cadastrar-se e encontrar um herói.
 
 ## 🤔 Como contribuir
 
